@@ -15,7 +15,7 @@ describe('summarize-bot', function() {
 
 	it('should summarize content', function(done) {
     let originaLength = words(article).length;
-		expect(summary.wordCount).to.not.equal(originaLength);
+		expect(summary.summaryLength).to.not.equal(originaLength);
     expect(summary.sentenceCount).to.equal(sentenceCount);
     done();
 	});

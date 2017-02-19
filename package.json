@@ -1,6 +1,6 @@
 {
   "name": "summary-bot",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "summarize conent",
   "main": "./lib/summary-bot.js",
   "keywords": [
