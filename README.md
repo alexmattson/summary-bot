@@ -1,8 +1,10 @@
 
-# <img src="/misc/logo.png">
+# [![logo.png](https://s16.postimg.org/s4n7serhh/logo.png)](https://github.com/amattson21/summary-bot)
 
 [![Build Status](https://travis-ci.org/amattson21/summary-bot.png)](https://travis-ci.org/amattson21/summary-bot)
 [![Version](http://img.shields.io/npm/v/summary-bot.svg)]()
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)]()
+
 ___________
 
 ## Description
@@ -17,23 +19,29 @@ npm install --save summary-bot
 
 ## Use
 
-import it into the file
+Three easy steps will get you up and running:
+
+1) Import it into the file
 ```javascript
 // ES6
 import SummaryBot from 'summary-bot';
 ```
-feed it an article (as a string) and the number of sentences you would like the summary to be
+2) feed it an article [string] and the number of sentences you would like for the summary
 ```javascript
 SummaryBot(article, 5)
 ```
-it will out put a summary object
-```javascript
-{
-  text: // summary as a string
-  percentReduction: // percent of the original article used in the summary
-  bestSentences: // this will be an array of the top sentences with metadata as to where they appeared in the article
-  originalLength: // word count of article
-  summaryLength: // word count of summary
-  sentenceCount: // returns sentence count for verification
-};
-```
+
+3) receive a summary object
+
+
+| Key        | Type           | Description  |
+| ------------- |:-------------| :-----|
+| text     | string | summary as a string |
+| percentReduction   | integer      |   percent of the original article removed from the summary |
+| bestSentences | array     |    this will be an array of the top sentences with metadata as to where they appeared in the article |
+| originalLength | integer      |    word count of article |
+| summaryLength | integer     |    word count of summary |
+| sentenceCount | integer     |    returns sentence count for verification |
+
+---
+Developed by [Alex Mattson](http://www.alexmattson.com)

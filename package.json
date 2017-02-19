@@ -1,6 +1,6 @@
 {
   "name": "summary-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "summarize conent",
   "main": "./lib/summary-bot.js",
   "keywords": [
@@ -20,7 +20,7 @@
     "url": "git+https://github.com/amattson21/summary-bot.git"
   },
   "author": "Alex Mattson <me@alexmattson.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.23.0",
