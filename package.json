@@ -3,7 +3,13 @@
   "version": "0.0.1",
   "description": "summarize conent",
   "main": "./lib/summary-bot.js",
-  "keywords": [],
+  "keywords": [
+    "summary-bot",
+    "summary",
+    "news",
+    "bot",
+    "summarize"
+  ],
   "scripts": {
     "start": "babel-node --presets es2015 ./lib/summary-bot.js",
     "sample": "babel-node --presets es2015 ./lib/sample.js",
@@ -11,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amattson21/eos-redux.git"
+    "url": "git+https://github.com/amattson21/summary-bot.git"
   },
   "author": "Alex Mattson <me@alexmattson.com>",
   "license": "ISC",
