@@ -1,6 +1,6 @@
 // import { should } from 'should';
 import SummaryBot from '../lib/summary-bot';
-import article from '../utils/article';
+import article from '../misc/article';
 import { expect } from 'chai';
 import { words } from 'lodash';
 
